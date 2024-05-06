@@ -9,8 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "sylius/mailer-bundle": "^1.8 || ^2.0@beta",
         "sylius/sylius": ">=1.12.13 || ~1.13.0",
-        "sylius/mailer-bundle":  "^1.8 || ^2.0@beta",
+        "symfony/validator": "^5.4 || ^6.0",
         "symfony/webpack-encore-bundle": "^1.15"
     },
     "require-dev": {
