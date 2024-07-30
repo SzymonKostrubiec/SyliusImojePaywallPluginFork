@@ -8,10 +8,12 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^8.2",
         "doctrine/annotations": "^1.14 || ^2.0.1",
+        "stof/doctrine-extensions-bundle": "^1.12",
         "sylius/mailer-bundle": "^1.8 || ^2.0@beta",
-        "sylius/sylius": "^1.12 || ^1.13",
+        "sylius/sylius": "^1.12",
+        "sylius/fixtures-bundle": "1.9.0",
         "symfony/webpack-encore-bundle": "^1.15"
     },
     "require-dev": {
@@ -80,6 +82,11 @@
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd",
             "security-checker security:check": "script"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "require": "5.4.0"
         }
     }
 }
