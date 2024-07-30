@@ -47,8 +47,7 @@
         "league/flysystem-bundle": "2.4.0"
     },
     "conflict": {
-        "symfony/validator": "6.4.7",
-        "sylius-labs/association-hydrator": "^1.2.2"
+        "symfony/validator": "6.4.7"
     },
     "config": {
         "sort-packages": true,
@@ -82,11 +81,6 @@
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd",
             "security-checker security:check": "script"
-        }
-    },
-    "extra": {
-        "symfony": {
-            "require": "5.4.0"
         }
     }
 }
