@@ -47,7 +47,8 @@
         "league/flysystem-bundle": "2.4.0"
     },
     "conflict": {
-        "symfony/validator": "6.4.7"
+        "symfony/validator": "6.4.7",
+        "sylius-labs/association-hydrator": "^1.2.2"
     },
     "config": {
         "sort-packages": true,
@@ -87,8 +88,5 @@
         "symfony": {
             "require": "5.4.0"
         }
-    },
-    "conflict": {
-        "sylius-labs/association-hydrator": "^1.2.2"
     }
 }
