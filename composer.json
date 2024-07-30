@@ -13,8 +13,6 @@
         "stof/doctrine-extensions-bundle": "^1.12",
         "sylius/mailer-bundle": "^1.8 || ^2.0@beta",
         "sylius/sylius": "^1.12",
-        "sylius/fixtures-bundle": "^1.9.0",
-        "sylius-labs/association-hydrator": "^1.2.2",
         "symfony/webpack-encore-bundle": "^1.15"
     },
     "require-dev": {
@@ -89,5 +87,8 @@
         "symfony": {
             "require": "5.4.0"
         }
+    },
+    "conflict": {
+        "sylius-labs/association-hydrator": "^1.2.2"
     }
 }
